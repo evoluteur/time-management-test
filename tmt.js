@@ -102,6 +102,8 @@ const showResults = (withAlert = true) => {
       h += `<div>Votre gestion du temps est bonne. Vous avez une approche efficace, mais il y a encore des opportunités pour optimiser davantage votre organisation et votre planification.</div>`;
     } else if (score < 90) {
       h += `<div>Votre gestion du temps est très bonne. Vous maîtrisez bien vos méthodes d'organisation et de planification, ce qui vous permet d'être efficace et productif dans vos activités quotidiennes.</div>`;
+    } else {
+      h += `<div>Votre gestion du temps est excellente. Vous excellez dans l'organisation et la planification de vos tâches, ce qui vous permet d'optimiser votre productivité et de maintenir un équilibre sain entre vie professionnelle et personnelle.</div>`;
     }
     h += `<div>Pour aller plus loin, découvrez nos ressources et formations sur la gestion du temps: <a href="https://www.laurentpellet.com" target="_blank">www.laurentpellet.com</a></div>`;
     document.getElementById("score").innerHTML = h;
