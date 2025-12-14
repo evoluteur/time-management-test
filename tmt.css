@@ -1,0 +1,91 @@
+body {
+  background-color: #1a212d;
+  color: white;
+  font-family: monospace;
+  padding: 10px 20px 30px;
+}
+h1,
+h2 {
+  background: linear-gradient(white, #51eaff);
+  -webkit-background-clip: text;
+  background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+}
+h1 {
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+h2 {
+  margin: 30px 0 20px;
+}
+
+#resp {
+  margin: 10px 20px 40px;
+}
+.question {
+  position: relative;
+  margin-top: 25px;
+  padding-left: 15px;
+}
+.question.invalid {
+  > .qq {
+    border-left-color: rgb(196, 31, 31);
+  }
+  > .qnum {
+    color: rgb(196, 31, 31);
+  }
+}
+.qq {
+  margin-left: 16px;
+  padding-left: 16px;
+  border-left: 2px solid silver;
+}
+.qnum {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.qscale {
+  margin: 20px 0 0;
+  > label {
+    cursor: pointer;
+    margin-right: 10px;
+    white-space: nowrap;
+  }
+  input {
+    margin: 0 10px 10px;
+    transform: scale(1.5);
+    cursor: pointer;
+  }
+}
+
+.submit {
+  margin: 40px 35px;
+}
+button {
+  padding: 10px 15px;
+  font-size: 14px;
+  background-color: #4f94d4;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+#score {
+  margin-top: 40px;
+  > div {
+    margin: 0 0 20px;
+  }
+  span {
+    font-size: 24px;
+    font-weight: bold;
+  }
+}
+footer {
+  margin-top: 80px;
+  font-size: 14px;
+  text-align: center;
+}
+a {
+  color: #4f94d4 !important;
+}
