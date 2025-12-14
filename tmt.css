@@ -30,10 +30,10 @@ h2 {
 }
 .question.invalid {
   > .qq {
-    border-left-color: rgb(196, 31, 31);
+    border-left-color: #fb6f6f;
   }
   > .qnum {
-    color: rgb(196, 31, 31);
+    color: #fb6f6f;
   }
 }
 .qq {
