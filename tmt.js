@@ -105,7 +105,9 @@ const showResults = (withAlert = true) => {
     } else {
       h += `<div>Votre gestion du temps est excellente. Vous excellez dans l'organisation et la planification de vos tâches, ce qui vous permet d'optimiser votre productivité et de maintenir un équilibre sain entre vie professionnelle et personnelle.</div>`;
     }
-    h += `<div>Pour aller plus loin, découvrez nos ressources et formations sur la gestion du temps: <a href="https://www.laurentpellet.com" target="_blank">www.laurentpellet.com</a></div>`;
+
+    h += `<div>Envie de savoir comment améliorer votre score?</div>
+    <div>Retrouvons nous sur <a href="https://www.laurentpellet.com" target="_blank">www.laurentpellet.com</a></div>`;
     document.getElementById("score").innerHTML = h;
     resShown = true;
   }
