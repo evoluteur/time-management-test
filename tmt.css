@@ -2,8 +2,14 @@ body {
   background-color: #1a212d;
   color: white;
   font-family: monospace;
-  padding: 10px 20px 30px;
+  padding: 10px;
 }
+@media screen and (min-width: 600px) {
+  body {
+    padding: 10px 20px;
+  }
+}
+
 h1,
 h2 {
   background: linear-gradient(white, #51eaff);
