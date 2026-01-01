@@ -1,5 +1,5 @@
 // time-management-test
-// (c) 2025 Laurent Pellet
+// (c) 2026 Laurent Pellet
 
 const question = (q, idx) => {
   return `<div id="q${idx}_wrapper" class="question">

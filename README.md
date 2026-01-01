@@ -6,4 +6,4 @@ Take [the test](https://evoluteur.github.io/time-management-test/) now.
 
 Developed by [Olivier Giulieri](https://evoluteur.github.io/).
 
-(c) 2025 [Laurent Pellet](https://www.laurentpellet.com/)
+(c) 2026 [Laurent Pellet](https://www.laurentpellet.com/)

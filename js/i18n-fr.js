@@ -1,5 +1,5 @@
 // time-management-test
-// (c) 2025 Laurent Pellet
+// (c) 2026 Laurent Pellet
 
 const i18n = {
   qs: [
