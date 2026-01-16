@@ -110,6 +110,7 @@ a {
     display: none !important;
   }
   body {
+    background: white;
     color: black;
   }
   #score,
