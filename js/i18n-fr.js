@@ -44,8 +44,10 @@ const i18n = {
   submit: "Calculer mon score",
   more: "Envie de savoir comment améliorer votre score?",
   more2:
-    'Retrouvons nous sur <a href="https://www.laurentpellet.com" target="_blank">www.laurentpellet.com</a>',
+    'Retrouvons nous sur <a href="https://laurentpellet.com" target="_blank">www.laurentpellet.com</a>',
   invalid:
     "Veuillez répondre à toutes les questions. Il en reste $1 sans réponse.",
   score: "Votre score total est de <span>$1%</span>.",
+  print: "Imprimer",
+  improve: "Je veux améliorer mon score",
 };

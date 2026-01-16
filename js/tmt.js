@@ -54,7 +54,8 @@ const calc = (withAlert = true) => {
   return total;
 };
 
-const div = (txt) => `<div>${txt}</div>`;
+const div = (txt, css = "") =>
+  css ? `<div class="${css}">${txt}</div>` : `<div>${txt}</div>`;
 
 const showResults = (withAlert = true) => {
   const total = calc(withAlert);
@@ -76,19 +77,32 @@ const showResults = (withAlert = true) => {
       h += div(i18n.scores[5]);
     }
 
-    h += div(i18n.more) + div(i18n.more2);
+    h +=
+      div(i18n.more) +
+      div(i18n.more2) +
+      div(
+        `<button onclick="window.print()">${i18n.print}</button>` +
+          `<button onclick="gotoLolo()">${i18n.improve}</button>`,
+        "submit"
+      );
     document.getElementById("score").innerHTML = h;
     resShown = true;
   }
 };
 
+const gotoLolo = () => {
+  window.open("https://laurentpellet.com/coaching/", "_blank");
+};
+
 const setup = () => {
   const hRs = i18n.rs.map((r, idx) => `<div>${idx} = ${r}</div>`).join("");
-  document.getElementById("intro").innerHTML = div(i18n.intro) + div(hRs);
+  document.getElementById("intro").innerHTML =
+    div(i18n.intro, "no-print") + div(hRs);
 
   let hTest = i18n.qs.map(question).join("");
-  hTest += `<div class="submit">
-    <button onclick="showResults()">${i18n.submit}</button>
-  </div>`;
+  hTest += div(
+    `<button onclick="showResults()">${i18n.submit}</button>`,
+    "submit"
+  );
   document.getElementById("test").innerHTML = hTest;
 };
