@@ -49,6 +49,11 @@ h1 {
   padding-left: 16px;
   border-left: 2px solid silver;
 }
+.question.valid {
+  > .qq {
+    border-left-color: #4f94d4;
+  }
+}
 .qnum {
   position: absolute;
   top: 0;

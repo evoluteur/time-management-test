@@ -22,6 +22,7 @@ let resShown = false;
 const setValid = (idx) => {
   const elem = document.getElementById(`q${idx}_wrapper`);
   elem.classList.remove("invalid");
+  elem.classList.add("valid");
   if (resShown) {
     showResults(false);
   }
