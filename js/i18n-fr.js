@@ -22,7 +22,7 @@ const i18n = {
     "Je suis pleinement présent(e) dans ma vie personnelle et pour mes proches.",
     "J'ai un sommeil de qualité et suffisant pour être en forme la journée.",
     "J'ai des plages réservées pour mes activités sportives, sociales et familiales.",
-    "Je termine chaque journée en sachant ce que je ferai le lendemain.",
+    "J'ai une visibilité suffisante sur mon agenda pour les jours, semaines et mois à venir",
   ],
   rs: [
     "Pas du tout d'accord",

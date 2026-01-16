@@ -11,7 +11,7 @@ body {
 }
 
 h1 {
-  background: linear-gradient(white, #51eaff);
+  background: linear-gradient(white, #4f94d4);
   -webkit-background-clip: text;
   background-clip: text !important;
   -webkit-text-fill-color: transparent;
@@ -78,8 +78,8 @@ button {
   color: white;
   border: none;
   border-radius: 5px;
-  margin-right: 10px;
   cursor: pointer;
+  margin: 10px;
 }
 #score {
   margin-top: 40px;
@@ -140,5 +140,10 @@ a {
     > a {
       text-decoration: none;
     }
+  }
+}
+@media screen and (max-width: 600px) {
+  .submit {
+    text-align: center;
   }
 }
