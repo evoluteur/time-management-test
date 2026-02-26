@@ -11,7 +11,7 @@ const i18n = {
     "Je connais mon biorythme et j'organise mes tâches en conséquence.",
     "Je garde des marges de manœuvre pour absorber les imprévus.",
     "Je sais me protéger des interruptions quand je dois me concentrer.",
-    'Je sais dire "non" aux sollicitations pour des tâches sans importance pour moi.',
+    'Je sais dire "non" aux sollicitations pour des tâches sans importance pour moi ou pour mon entreprise.',
     "Je suis en maitrise et à jour de mes emails et messages.",
     "Je consulte mes emails et messages à des moments bien définis.",
     "Je ne procrastine pas et suis à jour de mes micro-tâches.",
